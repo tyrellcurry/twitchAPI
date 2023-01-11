@@ -1,1 +1,1 @@
-# twitchAPI
+## ✨ Twitch API Project ✨
