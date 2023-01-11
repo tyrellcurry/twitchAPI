@@ -24,7 +24,7 @@ export default function Home() {
         <h1 className="text-2xl font-bold text-slate-500">Hello world!</h1>
         <div>
           <h2>Streams</h2>
-          <StreamComponent streams={streams} />
+          <StreamComponent stream={streams} />
         </div>
       </main>
     </>

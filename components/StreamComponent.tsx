@@ -1,9 +1,9 @@
-function StreamComponent({ streams } : { stream: any }) {
-  console.log(streams);
+function StreamComponent({ stream } : { stream: any }) {
+  console.log(stream);
   return (
     <>
       <ol>
-        {streams.map((stream: any) => (
+        {stream.map((stream: any) => (
           <li key={stream.id}>{stream.title}</li>
         ))}
       </ol>
