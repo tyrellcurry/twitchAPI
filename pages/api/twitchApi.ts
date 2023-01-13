@@ -1,16 +1,3 @@
-// // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-// import type { NextApiRequest, NextApiResponse } from 'next'
-
-// type Data = {
-//   name: string
-// }
-
-// export default function handler(
-//   req: NextApiRequest,
-//   res: NextApiResponse<Data>
-// ) {
-//   res.status(200).json({ name: 'John Doe' })
-// }
 
 let clinetId = "fbsy5mte5jmisgc4ikpxb802sjan7u";
 let clinetSecret = "1tphywwb7rlyb3ypjd6w58yuyr1mpj";
