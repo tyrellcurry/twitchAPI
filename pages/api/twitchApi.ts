@@ -1,9 +1,9 @@
 
-let clinetId = "fbsy5mte5jmisgc4ikpxb802sjan7u";
-let clinetSecret = "1tphywwb7rlyb3ypjd6w58yuyr1mpj";
+let clientId = "fbsy5mte5jmisgc4ikpxb802sjan7u";
+let clientSecret = "1tphywwb7rlyb3ypjd6w58yuyr1mpj";
 
 function getTwitchAuthorization() {
-    let url = `https://id.twitch.tv/oauth2/token?client_id=${clinetId}&client_secret=${clinetSecret}&grant_type=client_credentials`;
+    let url = `https://id.twitch.tv/oauth2/token?client_id=${clientId}&client_secret=${clientSecret}&grant_type=client_credentials`;
 
     return fetch(url, {
     method: "POST",
@@ -29,7 +29,7 @@ export async function getStreams() {
 
     let headers = {
     authorization,
-    "Client-Id": clinetId,
+    "Client-Id": clientId,
     };
 
     return fetch(endpoint, {
